@@ -9,7 +9,7 @@ public class UserServiceImpl implements UserService {
 
     @Autowired
     private UserRepository userRepository;
-    private  UserService s;
+    private  UserService s=new UserServiceImpl();
 
     @Override
     public Boolean saveUser(UserDto userDto) {
