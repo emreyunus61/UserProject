@@ -15,6 +15,7 @@ public class UserServiceImpl implements UserService {
 
         //Qeue basılacak
         //
+        System.out.println("Adam Yunus");
          userRepository.save(userDto);
 
          return  true;
